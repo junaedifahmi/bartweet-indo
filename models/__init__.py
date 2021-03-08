@@ -4,4 +4,6 @@ A good model definition also nice if it has separate configuration file, so inst
 change the configuration file only.
 """
 
-from models import *
+from models.bartweet import bartweet_id
+
+__all__ = [bartweet_id]
